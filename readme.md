@@ -2,10 +2,6 @@ Work files for the Udemy Rails Programming Course<br/>
 Course Site: https://www.udemy.com/pro-rubyonrails/
 
 ------------------------
-------------------------
-Tips & Tricks
-------------------------
-------------------------
 
 ------------------------
 How to Update Ruby:
@@ -28,16 +24,19 @@ sudo rvm install ruby-2.1.5
 Switch to Correct version of Ruby:
 rvm use ruby-2.1.5
 ------------------------
+
 ------------------------
 How to create a new App
 ------------------------
 rails new app_name
 ------------------------
+
 ------------------------
 Open a Port:
 ------------------------
 sudo ufw allow 3000
 ------------------------
+
 ------------------------
 Start Rails server
 ------------------------
@@ -50,6 +49,7 @@ rails s -b localhost (DOES NOT WORK if you try to externally connect)
 http://stackoverflow.com/questions/8365097/rails-server-not-working
 
 ------------------------
+
 ------------------------
 Rails Getting Started Guide
 ------------------------
