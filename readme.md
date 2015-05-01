@@ -47,3 +47,24 @@ http://stackoverflow.com/questions/8365097/rails-server-not-working
 Rails Getting Started Guide
 ------------------------
 http://guides.rubyonrails.org/getting_started.html
+
+<br/><br/>
+Routes
+-------------------------
+Once you've added a route to config/routes.rb, you can then run "rake routes" to have rails to auto define the route files.
+
+
+<br/><br/>
+Generate a Controller
+-------------------------
+rails g controller articles
+
+<br/><br/>
+Generate a Model
+-------------------------
+rails generate model Article title:string text:text
+
+<br/><br/>
+Create tables from migrate files
+-------------------------
+rake db:migrate
